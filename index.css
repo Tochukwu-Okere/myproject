@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    overflow: scroll;
 }
 #header{
     position: relative;
@@ -144,7 +144,7 @@ background: #ccc;
     }
     #header{
         overflow: hidden;
-        height: 33rem;
+        height: 100vh;
     }
     .navigation{
         width: 98%;
@@ -153,10 +153,10 @@ background: #ccc;
         display: none;
         position: absolute;
         top: 3rem;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: rgba(115, 50, 175, 0.447);
+        left: 240px;
+        width: 40%;
+        height: 50vh;
+        background: purple;
     } 
     .navigation >nav >ul{
         width: 70%;
@@ -319,7 +319,7 @@ background: #ccc;
   }
   
   .services .icon-box h4 a {
-    color: #fff;
+    color: black;
   }
   
   .services .icon-box p {
@@ -598,7 +598,7 @@ background: #ccc;
   
   .contact .info-box p {
     padding: 0;
-    color: gray;
+    color:whitesmoke;
     line-height: 24px;
     font-size: 14px;
     margin: 0 0 0 68px;
