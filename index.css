@@ -185,13 +185,11 @@ background: #ccc;
         right: 40%;
     }
     .content{
-        padding: 2rem 2rem 0rem 1rem;
+        padding: 3rem 4rem 0rem 1rem;
     margin-block-start: 130px;
     }
     #circle{
-        width: 100px;
-        height: 90px;
-        top: -10px;
+        display: none;
     }
     .one{
         top: 10px;
@@ -683,6 +681,7 @@ background: #ccc;
 @media (max-width:600px) {
   .icon-open{
     display: block;
+    color: #000 solid;
 }
   .footer{
     height: fit-content;
